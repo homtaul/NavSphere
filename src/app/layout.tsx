@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     template: '%s - NavSphere'
   },
   description: 'A modern navigation platform',
+  verification: {
+    google: "BnHs0nBqVVQ6MAgP3FuJ74H_a_v2ZrBuCG3XceSD_KI",
+  },
   icons: {
     icon: '/favicon.ico'
   }
