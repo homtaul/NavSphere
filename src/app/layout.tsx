@@ -75,6 +75,38 @@ export default function RootLayout({
     gtag('config', 'G-21DL43PWQG');
   `}
 </Script>
+
+        {/* Baidu Tongji */}
+<Script
+  id="baidu-tongji"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?4fe2496f60f247582091fa6b90622002";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `,
+  }}
+/>
+
+        {/* Microsoft Clarity */}
+<Script
+  id="microsoft-clarity"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "wv19jg8iew");
+    `,
+  }}
+/>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
