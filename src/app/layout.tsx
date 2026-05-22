@@ -62,6 +62,19 @@ export default function RootLayout({
         )}
       </head>
       <body suppressHydrationWarning>
+        {/* Google Analytics 4 */}
+<Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-21DL43PWQG"
+  strategy="afterInteractive"
+/>
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-21DL43PWQG');
+  `}
+</Script>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
