@@ -1,8 +1,8 @@
 {
   "basic": {
-    "title": "NavSphere导航",
-    "description": "收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。",
-    "keywords": "设计导航,设计资源,设计工具,设计素材,设计教程"
+    "title": "AI Plazza | AI工具导航站 - 发现全球优质人工智能应用",
+    "description": "AI Plazza（AI广场）是一家专业的AI工具导航网站，专注于收集国内外优质人工智能网站、AI写作、AI绘画、大语言模型及生产力效率工具。定时更新优质AI书签，为您提供一站式AI应用发现与评测平台。",
+    "keywords": "AI导航,AI工具,人工智能,AI绘画,ChatGPT,AI写作,AI广场,aiplazza,优质网站导航"
   },
   "appearance": {
     "logo": "/assets/images/alogo.webp",
